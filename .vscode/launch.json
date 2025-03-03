@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Prime to DNC",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "functions_framework",
+            "args": [
+                "--target",
+                "prime_to_dnc",
+                "--debug"
+            ],
+            "env": {
+                "VICI_USER": "",
+                "VICI_PASSWORD": "",
+            },
+            "console": "integratedTerminal",
+        }
+    ]
+  }
+  
